@@ -9,6 +9,16 @@
         <script src="http://yastatic.net/bootstrap/3.3.4/js/bootstrap.min.js"></script>
         <style>
         </style>
+        <link rel="manifest" href="/manifest.json" />
+            <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+            <script>
+               var OneSignal = window.OneSignal || [];
+               OneSignal.push(function() {
+                 OneSignal.init({
+                    appId: "be4fc27e-ad17-4a86-a64d-314585696ea4",
+                  });
+                });
+            </script>
     </head>
     <body>
       yot tak yot
